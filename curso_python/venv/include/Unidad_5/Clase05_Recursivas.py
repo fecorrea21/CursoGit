@@ -20,3 +20,26 @@ def factorial(numero):
     return numero
 
 print(factorial(5))
+
+print("=================================================0")
+#yield
+
+def saluda ():
+    """Esta funcion dice hola """
+    saluda = "Hola que tal"
+    return saluda
+    print("Otro saludo")
+
+print(saluda ())
+
+def generadores (*args):
+    for valor in args:
+        yield valor*10
+        print("Despues de yield")
+
+for valor in  generadores(1,2,3,4,5,6):
+    print(valor)
+
+doc = saluda.__doc__
+nombre = saluda.__name__
+print(doc, nombre)

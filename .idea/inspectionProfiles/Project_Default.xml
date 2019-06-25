@@ -13,6 +13,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="curso_python.venv.include.Unidad_7.modulo.Modulos" />
+          <option value="include.POO.Objetos.Motocicleta" />
         </list>
       </option>
     </inspection_tool>
